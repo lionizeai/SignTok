@@ -6,13 +6,15 @@
   "author": "Pablo Ferreiro",
   "main": "src/Signer.js",
   "license": "MIT",
-  "keywords": ["tiktok", "tiktok-signer", "jsdom"],
+  "keywords": [
+    "tiktok",
+    "tiktok-signer",
+    "jsdom"
+  ],
   "scripts": {
-    "start": "node api/index.js",
-    "vercel-build": "yum -y install libuuid-devel libmount-devel && cp /lib64/{libuuid,libmount,libblkid}.so.1 node_modules/canvas/build/Release/"
+    "start": "node api/index.js"
   },
   "dependencies": {
-    "canvas": "^2.9.3",
     "jsdom": "^19.0.0"
   }
 }
